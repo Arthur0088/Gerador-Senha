@@ -100,20 +100,19 @@ body{
         width: 140px;
         justify-content: center;
         align-items: center;
-        margin-left: 40px;
+        margin-left: 15px;
         margin-top: 10px;
     }
     .container-slide{
         padding: 0;
         margin: 0;
-        margin-left: 40px;
+        margin-left: 15px;
     }
     .subtitulo{
-        margin-left: 40px;
-        font-size: 1px;
+        margin-left: 15px;
     }
     .subtitulo span{
-        font-size: 10px;
+        font-size: 12px;
     }
     .slider{
         flex-wrap: wrap;
@@ -122,5 +121,28 @@ body{
     .title-principal{
         font-size: 18px;
         margin-left: 79px;
+    }
+    .title-senha{
+        text-align: start;
+        font-size: 10px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    #senha{
+        height: 15px;
+        width: 30%;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .msg{
+        width: 30%;
+        display: flex;
+        margin-left: 10px;
+        top: 10px;
+        padding: 6px 8px;
+        visibility: visible;
+        opacity: 0;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
     }
 }
